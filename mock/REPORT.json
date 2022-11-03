@@ -1,0 +1,132 @@
+{
+  "count": "9",
+  "fields": [
+    { "fieldKind": "default_record", "fieldType": "SERIAL", "fieldKey": "recordId", "fieldName": "レコードID" },
+    { "fieldKind": "default_record", "fieldType": "datetime", "fieldKey": "registDate", "fieldName": "登録日時" },
+    { "fieldKind": "default_record", "fieldType": "datetime", "fieldKey": "updateDate", "fieldName": "更新日時" },
+    { "fieldKind": "default_record", "fieldType": "user", "fieldKey": "registAccount", "fieldName": "レコード登録者" },
+    { "fieldKind": "default_record", "fieldType": "user", "fieldKey": "updateAccount", "fieldName": "最終更新者" },
+    { "fieldKind": "default_record", "fieldType": "text", "fieldKey": "recordTitle", "fieldName": "タイトル" },
+    { "fieldKind": "record", "fieldType": "date", "fieldCode": "198", "fieldKey": "date01", "fieldName": "日付" },
+    { "fieldKind": "record", "fieldType": "group", "fieldCode": "199", "fieldKey": "group01", "fieldName": "所属" },
+    { "fieldKind": "record", "fieldType": "user", "fieldCode": "200", "fieldKey": "user01", "fieldName": "報告者" },
+    {
+      "fieldKind": "record",
+      "fieldType": "textarea",
+      "fieldCode": "201",
+      "fieldKey": "textarea01",
+      "fieldName": "内容"
+    }
+  ],
+  "records": [
+    {
+      "group01": { "name": "管理者", "code": "ug002" },
+      "updateDate": "2022-04-26 11:12",
+      "updateAccount": { "name": "矢野健太郎", "code": "ac021863" },
+      "date01": "2022-02-04",
+      "registAccount": { "name": "矢野健太郎", "code": "ac021863" },
+      "textarea01": "大阪へ出張。午前中は移動。\n午後からヒペリカム K.K.さん本社にてプレゼン",
+      "registDate": "2022-04-26 11:12",
+      "recordTitle": "2022-02-04",
+      "recordId": "REPORT-10",
+      "user01": { "name": null, "code": "us0005" }
+    },
+    {
+      "group01": { "name": "検証", "code": "ug001" },
+      "updateDate": "2022-04-26 11:12",
+      "updateAccount": { "name": "矢野健太郎", "code": "ac021863" },
+      "date01": "2022-02-04",
+      "registAccount": { "name": "矢野健太郎", "code": "ac021863" },
+      "textarea01": "本日は3件の営業先へ訪問しました。",
+      "registDate": "2022-04-26 11:12",
+      "recordTitle": "2022-02-04",
+      "recordId": "REPORT-9",
+      "user01": { "name": null, "code": "us0003" }
+    },
+    {
+      "group01": { "name": "検証", "code": "ug001" },
+      "updateDate": "2022-04-26 11:12",
+      "updateAccount": { "name": "矢野健太郎", "code": "ac021863" },
+      "date01": "2022-02-04",
+      "registAccount": { "name": "矢野健太郎", "code": "ac021863" },
+      "textarea01": "本日は4件の営業先へ訪問しました。",
+      "registDate": "2022-04-26 11:12",
+      "recordTitle": "2022-02-04",
+      "recordId": "REPORT-8",
+      "user01": { "name": null, "code": "ac000002" }
+    },
+    {
+      "group01": { "name": "管理者", "code": "ug002" },
+      "updateDate": "2022-04-26 11:12",
+      "updateAccount": { "name": "矢野健太郎", "code": "ac021863" },
+      "date01": "2022-02-03",
+      "registAccount": { "name": "矢野健太郎", "code": "ac021863" },
+      "textarea01": "午前中に2件商談。午後からは営業戦略会議に参加。",
+      "registDate": "2022-04-26 11:12",
+      "recordTitle": "2022-02-03",
+      "recordId": "REPORT-7",
+      "user01": { "name": null, "code": "us0005" }
+    },
+    {
+      "group01": { "name": "検証", "code": "ug001" },
+      "updateDate": "2022-04-26 11:12",
+      "updateAccount": { "name": "矢野健太郎", "code": "ac021863" },
+      "date01": "2022-02-03",
+      "registAccount": { "name": "矢野健太郎", "code": "ac021863" },
+      "textarea01": "午前中に2件商談しました。午後からは営業会議に出席しました。\n",
+      "registDate": "2022-04-26 11:12",
+      "recordTitle": "2022-02-03",
+      "recordId": "REPORT-6",
+      "user01": { "name": null, "code": "us0003" }
+    },
+    {
+      "group01": { "name": "検証", "code": "ug001" },
+      "updateDate": "2022-04-26 11:12",
+      "updateAccount": { "name": "矢野健太郎", "code": "ac021863" },
+      "date01": "2022-02-03",
+      "registAccount": { "name": "矢野健太郎", "code": "ac021863" },
+      "textarea01": "本日は3件の営業先へ訪問し、15時に社にもどってからは\n金曜の提案資料の作成をしました。",
+      "registDate": "2022-04-26 11:12",
+      "recordTitle": "2022-02-03",
+      "recordId": "REPORT-5",
+      "user01": { "name": null, "code": "us0002" }
+    },
+    {
+      "group01": { "name": "管理者", "code": "ug002" },
+      "updateDate": "2022-04-26 11:12",
+      "updateAccount": { "name": "矢野健太郎", "code": "ac021863" },
+      "date01": "2022-02-02",
+      "registAccount": { "name": "矢野健太郎", "code": "ac021863" },
+      "textarea01": "京都へ出張。午前中は移動\n午後からリオウガ株式会社さん本社にてプレゼン",
+      "registDate": "2022-04-26 11:12",
+      "recordTitle": "2022-02-02",
+      "recordId": "REPORT-3",
+      "user01": { "name": null, "code": "us0005" }
+    },
+    {
+      "group01": { "name": "検証", "code": "ug001" },
+      "updateDate": "2022-04-26 11:12",
+      "updateAccount": { "name": "矢野健太郎", "code": "ac021863" },
+      "date01": "2022-02-02",
+      "registAccount": { "name": "矢野健太郎", "code": "ac021863" },
+      "textarea01": "紺井マネージャに動向し、京都へ出張。午前中は移動\n午後からリオウガ株式会社さん本社にてプレゼン",
+      "registDate": "2022-04-26 11:12",
+      "recordTitle": "2022-02-02",
+      "recordId": "REPORT-2",
+      "user01": { "name": null, "code": "us0002" }
+    },
+    {
+      "group01": { "name": "管理者", "code": "ug002" },
+      "updateDate": "2022-04-26 11:12",
+      "updateAccount": { "name": "矢野健太郎", "code": "ac021863" },
+      "date01": "2022-02-02",
+      "registAccount": { "name": "矢野健太郎", "code": "ac021863" },
+      "textarea01": "1日の日報をまとめて報告する場合は、こちらでまとめて入力。\n個別に詳細報告する場合は全体の感想をいれてOK",
+      "registDate": "2022-04-26 11:12",
+      "recordTitle": "2022-02-02",
+      "recordId": "REPORT-1",
+      "user01": { "name": null, "code": "us0003" }
+    }
+  ],
+  "countTotal": "9"
+}
