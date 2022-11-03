@@ -1,0 +1,116 @@
+{
+  "count": "9",
+  "list": [
+    {
+      "appMemo": "行った事のあるキャンプ場を記録するアプリです。\n自分が行ったことのあるキャンプ場をリスト化し、\n思いたった時にすぐ調べられる。\nとにかくシンプルで使いやすい記録帳です。",
+      "appColor": "#947850",
+      "appIcon": "https://files.saaske.com/works/c33841363/favicon/CAMP-1620461188.png",
+      "appName": "オレ流キャンプ場DB",
+      "appUrl": "https://kengineer.works.app/CAMP/",
+      "appKey": "CAMP",
+      "appStatus": "active",
+      "appQrcode": "https://files.saaske.com/works/c33841363/favicon/CAMP-qr-1620461188.gif",
+      "appAuthor": { "name": "矢野健太郎", "code": "ac021863" },
+      "appShortName": "オレ流キャンプ場DB",
+      "appFavorite": "true"
+    },
+    {
+      "appMemo": "担当者管理アプリ",
+      "appColor": "purple",
+      "appIcon": "https://files.saaske.com/works/c33841363/favicon/PERSON-1620727795.png",
+      "appName": "店舗担当者管理アプリ",
+      "appUrl": "https://kengineer.works.app/PERSON/",
+      "appKey": "PERSON",
+      "appStatus": "active",
+      "appQrcode": "https://files.saaske.com/works/c33841363/favicon/PERSON-qr-1620727795.gif",
+      "appAuthor": { "name": "矢野健太郎", "code": "ac021863" },
+      "appShortName": "店舗担当者"
+    },
+    {
+      "appColor": "checked",
+      "appIcon": "https://files.saaske.com/works/c33841363/favicon/BIRTHDAY-1635306862.png",
+      "appName": "誕生日管理",
+      "appUrl": "https://kengineer.works.app/BIRTHDAY/",
+      "appKey": "BIRTHDAY",
+      "appStatus": "active",
+      "appQrcode": "https://files.saaske.com/works/c33841363/favicon/BIRTHDAY-qr-1635306862.gif",
+      "appAuthor": { "name": "矢野健太郎", "code": "ac021863" },
+      "appShortName": "誕生日"
+    },
+    {
+      "appColor": "#6487e5",
+      "appIcon": "https://files.saaske.com/works/c33841363/favicon/API-1650438882.png",
+      "appName": "APIテスト",
+      "appUrl": "https://kengineer.works.app/API/",
+      "appKey": "API",
+      "appStatus": "active",
+      "appQrcode": "https://files.saaske.com/works/c33841363/favicon/API-qr-1650438882.gif",
+      "appAuthor": { "name": "矢野健太郎", "code": "ac021863" },
+      "appShortName": "API"
+    },
+    {
+      "appColor": "#de5f60",
+      "appIcon": "https://files.saaske.com/works/c33841363/favicon/REPORT-1650939139.png",
+      "appName": "日報",
+      "appUrl": "https://kengineer.works.app/REPORT/",
+      "appKey": "REPORT",
+      "appStatus": "active",
+      "appQrcode": "https://files.saaske.com/works/c33841363/favicon/REPORT-qr-1650939139.gif",
+      "appAuthor": { "name": "矢野健太郎", "code": "ac021863" },
+      "appShortName": "日報",
+      "appFavorite": "true"
+    },
+    {
+      "appMemo": "引用・参考文献一覧の作成をスムーズに！！\n論文を書く際に引用箇所を探すために参考文献を読み返したり、書籍情報を手入力する手間を省きます。",
+      "appColor": "#bfae96",
+      "appIcon": "https://files.saaske.com/works/c33841363/favicon/BOOKMARKER-1619530487.png",
+      "appName": "参考文献管理",
+      "appGroup": "資料管理",
+      "appUrl": "https://kengineer.works.app/BOOKMARKER/",
+      "appKey": "BOOKMARKER",
+      "appStatus": "active",
+      "appQrcode": "https://files.saaske.com/works/c33841363/favicon/BOOKMARKER-qr-1619530487.gif",
+      "appAuthor": { "name": "矢野健太郎", "code": "ac021863" },
+      "appShortName": "文献管理"
+    },
+    {
+      "appMemo": "複数人で日程を調整するためのアプリ",
+      "appColor": "#5ca03c",
+      "appIcon": "https://files.saaske.com/works/c33841363/favicon/SCHEDULE-1619694828.png",
+      "appName": "日程調整アプリ",
+      "appGroup": "予定管理",
+      "appUrl": "https://kengineer.works.app/SCHEDULE/",
+      "appKey": "SCHEDULE",
+      "appStatus": "active",
+      "appQrcode": "https://files.saaske.com/works/c33841363/favicon/SCHEDULE-qr-1619694828.gif",
+      "appAuthor": { "name": "矢野健太郎", "code": "ac021863" },
+      "appShortName": "日程調整"
+    },
+    {
+      "appMemo": "複数人でタスクを管理するアプリ",
+      "appColor": "#45782d",
+      "appIcon": "https://files.saaske.com/works/c33841363/favicon/TASK-1620824828.png",
+      "appName": "タスク管理アプリ",
+      "appGroup": "予定管理",
+      "appUrl": "https://kengineer.works.app/TASK/",
+      "appKey": "TASK",
+      "appStatus": "active",
+      "appQrcode": "https://files.saaske.com/works/c33841363/favicon/TASK-qr-1620824828.gif",
+      "appAuthor": { "name": "矢野健太郎", "code": "ac021863" },
+      "appShortName": "タスク管理"
+    },
+    {
+      "appMemo": "担当店舗の展示状況を画像で報告。\n店舗別ToDoリストで営業活動も抜け漏れなく行える。\nキーマン情報も登録出来るから店舗引き継ぎ時の負担も軽減。",
+      "appColor": "#6f8d2f",
+      "appIcon": "https://files.saaske.com/works/c33841363/favicon/STORE-1619922044.png",
+      "appName": "担当店舗管理アプリ",
+      "appGroup": "店舗管理",
+      "appUrl": "https://kengineer.works.app/STORE/",
+      "appKey": "STORE",
+      "appStatus": "active",
+      "appQrcode": "https://files.saaske.com/works/c33841363/favicon/STORE-qr-1619922044.gif",
+      "appAuthor": { "name": "矢野健太郎", "code": "ac021863" },
+      "appShortName": "担当店舗"
+    }
+  ]
+}
