@@ -1,4 +1,4 @@
 // テキストメッセージ
 export default {
-  title: 'タイトル',
+  appTitle: 'サスケWorks Next.js',
 };

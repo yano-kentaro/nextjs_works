@@ -6,9 +6,8 @@ import '@fontsource/roboto/700.css';
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html>
-      <head></head>
-      <body>{children}</body>
+        <title>{t.appTitle}</title>
+      </head>
     </html>
   );
 }
