@@ -4,7 +4,7 @@ type apiResGetApps = {
     appKey: string;
     appName: string;
     appShortName: string;
-    appStatus: 'active';
+    appStatus: string;
     appGroup?: string;
     appAuthor: {
       name: string;
@@ -16,7 +16,7 @@ type apiResGetApps = {
     appQrcode: string;
     appFavorite?: string;
     appUrl: string;
-  };
+  }[];
 };
 
 type apiResGetRecords = {
@@ -28,21 +28,10 @@ type apiResGetRecords = {
     fieldName: string;
     fieldType: string;
     fieldKind: string;
+    fieldOptions?: string[] | { [key: string]: string; [key: string]: string }[];
   }[];
   records: {
-    recordId: string;
-    recordTitle: string;
-    registAccount: {
-      name: string;
-      code: string;
-    };
-    registDate: string;
-    updateAccount: {
-      name: string;
-      code: string;
-    };
-    updateDate: string;
-    [key: string]: string;
+    [key: string]: string | { [key: string]: string; [key: string]: string };
   }[];
 };
 
@@ -77,4 +66,4 @@ type worksData = {
     updateDate: string;
     [key: string]: string;
   }[];
-}[];
+};
