@@ -1,6 +1,6 @@
-import { atom } from 'recoil'
+import { atom } from 'recoil';
 
 export const worksState = atom({
   key: 'worksState',
-  default: <uuid[]>[],
+  default: <worksData[]>[],
 });
