@@ -29,7 +29,7 @@
       "registDate": "2022-04-26 11:12",
       "recordTitle": "2022-02-04",
       "recordId": "REPORT-10",
-      "user01": { "name": null, "code": "us0005" }
+      "user01": { "name": "テスト太郎", "code": "us0005" }
     },
     {
       "group01": { "name": "検証", "code": "ug001" },
@@ -41,7 +41,7 @@
       "registDate": "2022-04-26 11:12",
       "recordTitle": "2022-02-04",
       "recordId": "REPORT-9",
-      "user01": { "name": null, "code": "us0003" }
+      "user01": { "name": "テスト太郎", "code": "us0003" }
     },
     {
       "group01": { "name": "検証", "code": "ug001" },
@@ -53,7 +53,7 @@
       "registDate": "2022-04-26 11:12",
       "recordTitle": "2022-02-04",
       "recordId": "REPORT-8",
-      "user01": { "name": null, "code": "ac000002" }
+      "user01": { "name": "テスト太郎", "code": "ac000002" }
     },
     {
       "group01": { "name": "管理者", "code": "ug002" },
@@ -65,7 +65,7 @@
       "registDate": "2022-04-26 11:12",
       "recordTitle": "2022-02-03",
       "recordId": "REPORT-7",
-      "user01": { "name": null, "code": "us0005" }
+      "user01": { "name": "テスト太郎", "code": "us0005" }
     },
     {
       "group01": { "name": "検証", "code": "ug001" },
@@ -77,7 +77,7 @@
       "registDate": "2022-04-26 11:12",
       "recordTitle": "2022-02-03",
       "recordId": "REPORT-6",
-      "user01": { "name": null, "code": "us0003" }
+      "user01": { "name": "テスト太郎", "code": "us0003" }
     },
     {
       "group01": { "name": "検証", "code": "ug001" },
@@ -89,7 +89,7 @@
       "registDate": "2022-04-26 11:12",
       "recordTitle": "2022-02-03",
       "recordId": "REPORT-5",
-      "user01": { "name": null, "code": "us0002" }
+      "user01": { "name": "テスト太郎", "code": "us0002" }
     },
     {
       "group01": { "name": "管理者", "code": "ug002" },
@@ -101,7 +101,7 @@
       "registDate": "2022-04-26 11:12",
       "recordTitle": "2022-02-02",
       "recordId": "REPORT-3",
-      "user01": { "name": null, "code": "us0005" }
+      "user01": { "name": "テスト太郎", "code": "us0005" }
     },
     {
       "group01": { "name": "検証", "code": "ug001" },
@@ -113,7 +113,7 @@
       "registDate": "2022-04-26 11:12",
       "recordTitle": "2022-02-02",
       "recordId": "REPORT-2",
-      "user01": { "name": null, "code": "us0002" }
+      "user01": { "name": "テスト太郎", "code": "us0002" }
     },
     {
       "group01": { "name": "管理者", "code": "ug002" },
@@ -125,7 +125,7 @@
       "registDate": "2022-04-26 11:12",
       "recordTitle": "2022-02-02",
       "recordId": "REPORT-1",
-      "user01": { "name": null, "code": "us0003" }
+      "user01": { "name": "テスト太郎", "code": "us0003" }
     }
   ],
   "countTotal": "9"
