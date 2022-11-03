@@ -1,0 +1,30 @@
+{
+  "count": "1",
+  "fields": [
+    { "fieldKind": "default_record", "fieldType": "SERIAL", "fieldKey": "recordId", "fieldName": "レコードID" },
+    { "fieldKind": "default_record", "fieldType": "datetime", "fieldKey": "registDate", "fieldName": "登録日時" },
+    { "fieldKind": "default_record", "fieldType": "datetime", "fieldKey": "updateDate", "fieldName": "更新日時" },
+    { "fieldKind": "default_record", "fieldType": "user", "fieldKey": "registAccount", "fieldName": "レコード登録者" },
+    { "fieldKind": "default_record", "fieldType": "user", "fieldKey": "updateAccount", "fieldName": "最終更新者" },
+    { "fieldKind": "default_record", "fieldType": "text", "fieldKey": "recordTitle", "fieldName": "タイトル" },
+    { "fieldKind": "record", "fieldType": "text", "fieldCode": "1", "fieldKey": "text01", "fieldName": "書籍名" },
+    { "fieldKind": "record", "fieldType": "name", "fieldCode": "2", "fieldKey": "name01", "fieldName": "著者" },
+    { "fieldKind": "record", "fieldType": "date", "fieldCode": "3", "fieldKey": "date01", "fieldName": "発行年月日" },
+    { "fieldKind": "record", "fieldType": "text", "fieldCode": "4", "fieldKey": "text02", "fieldName": "出版社" }
+  ],
+  "records": [
+    {
+      "updateDate": "2021-04-27 23:03",
+      "updateAccount": { "name": "矢野健太郎", "code": "ac021863" },
+      "date01": "2020-09-10",
+      "name01": "山口拓朗",
+      "text01": "伝わる文章が「速く」「思い通り」に書ける　87の法則",
+      "registAccount": { "name": "矢野健太郎", "code": "ac021863" },
+      "text02": "明日香出版社",
+      "recordTitle": "伝わる文章が「速く」「思い通り」に書ける　87の法則",
+      "registDate": "2021-04-27 22:59",
+      "recordId": "BOOKMARKER-1"
+    }
+  ],
+  "countTotal": "1"
+}
