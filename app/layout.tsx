@@ -1,3 +1,6 @@
+// recoil
+import { RecoilRoot } from 'recoil';
+
 // MUI Fonts
 import '@fontsource/roboto/300.css';
 import '@fontsource/roboto/400.css';
@@ -5,7 +8,7 @@ import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
 
 // Text
-import t from '@/text/text';
+import t from '@/app/text/text';
 
 // Get SaaSke Works Data from API
 async function getData() {
@@ -17,13 +20,15 @@ async function getData() {
 export default async function RootLayout({ children }: { children: React.ReactNode }) {
   const worksData = await getData();
   return (
-    <html lang="ja">
-      <head>
-        <title>{t.appTitle}</title>
-      </head>
-      <body>
-        {children}
-      </body>
-    </html>
+    <RecoilRoot>
+      <html lang="ja">
+        <head>
+          <title>{t.appTitle}</title>
+        </head>
+        <body>
+          {children}
+        </body>
+      </html>
+    </RecoilRoot>
   );
 }
